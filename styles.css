@@ -157,6 +157,9 @@ body {
     background-color: aqua;
     grid-column: 1;
     grid-row: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 1fr);
 }
 
 .main {
