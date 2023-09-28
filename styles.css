@@ -186,6 +186,12 @@ body {
     justify-content: center;
 }
 
+.lower {
+    display: grid;
+    grid-template-columns: 100px 1fr repeat(3, 100px);
+    align-items: center;
+}
+
 .header {
     background-color: yellow;
     display: grid;
