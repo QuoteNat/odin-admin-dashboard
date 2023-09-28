@@ -160,6 +160,12 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(11, 1fr);
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
