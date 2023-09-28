@@ -235,7 +235,9 @@ body {
     grid-template-rows: repeat(2, 1fr);
 }
 
-.main h1 {}
+.main h1 {
+    font-weight: bold;
+}
 
 .projects {
     grid-row: 1 / -1;
