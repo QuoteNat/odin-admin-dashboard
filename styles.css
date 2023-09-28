@@ -149,6 +149,11 @@ body {
     grid-template-rows: 10em 1fr;
 }
 
+.icon {
+    width: 40px;
+    height: auto;
+}
+
 .header {
     background-color: yellow;
     display: grid;
