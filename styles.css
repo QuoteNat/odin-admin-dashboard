@@ -190,6 +190,13 @@ body {
     display: grid;
     grid-template-columns: 100px 1fr repeat(3, 100px);
     align-items: center;
+    gap: 10px;
+}
+
+.lower>button {
+    border-style: none;
+    background-color: aqua;
+    border-radius: 20px;
 }
 
 .header {
