@@ -173,8 +173,8 @@ body {
 }
 
 .pfp {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     margin: auto;
     object-fit: cover;
     border-radius: 100%;
@@ -182,6 +182,11 @@ body {
     align-items: center;
     justify-content: center;
     justify-self: end;
+}
+
+.pfp.big {
+    width: 50px;
+    height: 50px;
 }
 
 .upper {
