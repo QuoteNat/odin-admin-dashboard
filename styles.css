@@ -242,3 +242,16 @@ body {
 .projects {
     grid-row: 1 / -1;
 }
+
+.main .card {
+    background-color: antiquewhite;
+    display: grid;
+}
+
+.card-icons {
+    width: 100%;
+    display: grid;
+    justify-content: end;
+    grid-auto-flow: column;
+    gap: 10px;
+}
