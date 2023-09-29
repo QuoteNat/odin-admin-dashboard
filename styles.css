@@ -279,3 +279,32 @@ body {
 .announcement {
     background-color: var(--card-background);
 }
+
+.trending-container {
+    display: grid;
+    background-color: var(--card-background);
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 25px 7em;
+    grid-template-rows: repeat(2, 1fr);
+    height: 50px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.user a {
+    grid-column: 1;
+    grid-row: 1 / -1;
+    display: grid;
+    align-items: center;
+}
+
+.user h2 {
+    align-self: end;
+}
+
+.user p {
+    align-self: s;
+}
