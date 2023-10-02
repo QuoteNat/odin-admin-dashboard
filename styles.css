@@ -136,7 +136,12 @@ table {
 
 /* Main */
 :root {
-    --card-background: antiquewhite;
+    /* Using tailwind indigo palette 
+    https://tailwindcss.com/docs/customizing-colors */
+    --text-background: #eef2ff;
+    --main-background: #c7d2fe;
+    --card-accent: #4f46e5;
+    --dark-background: #4338ca;
 }
 
 * {
@@ -162,7 +167,7 @@ body {
 }
 
 .search {
-    background-color: gray;
+    background-color: var(--main-background);
     border-radius: 10em;
     height: 50px;
     display: grid;
@@ -206,18 +211,19 @@ body {
 
 .lower>button {
     border-style: none;
-    background-color: aqua;
+    color: white;
+    background-color: var(--dark-background);
     border-radius: 20px;
 }
 
 .header {
-    background-color: yellow;
+    background-color: var(--text-background);
     display: grid;
     grid-template-rows: repeat(2, 1fr);
 }
 
 .sidebar {
-    background-color: aqua;
+    background-color: var(--dark-background);
     grid-column: 1;
     grid-row: 1 / -1;
     display: grid;
@@ -235,7 +241,7 @@ body {
 }
 
 .main {
-    background-color: gray;
+    background-color: var(--main-background);
     display: grid;
     padding: 20px;
     grid-template-columns: 1fr 200px;
@@ -259,7 +265,7 @@ body {
 }
 
 .main .card {
-    background-color: var(--card-background);
+    background-color: var(--text-background);
     display: grid;
 }
 
@@ -277,12 +283,12 @@ body {
 }
 
 .announcement {
-    background-color: var(--card-background);
+    background-color: var(--text-background);
 }
 
 .trending-container {
     display: grid;
-    background-color: var(--card-background);
+    background-color: var(--text-background);
 }
 
 .user {
