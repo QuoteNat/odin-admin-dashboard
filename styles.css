@@ -185,7 +185,7 @@ body {
     border-radius: 100%;
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 .pfp.big {
@@ -195,7 +195,7 @@ body {
 
 .upper {
     display: grid;
-    grid-template-columns: 3fr 100px 100px;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
