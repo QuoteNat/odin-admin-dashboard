@@ -227,7 +227,7 @@ body {
     grid-row: 1 / -1;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-rows: repeat(12, max(40px, calc(80vh / 12)));
     grid-template-columns: 50px 1fr;
     color: white;
     font-weight: bolder;
