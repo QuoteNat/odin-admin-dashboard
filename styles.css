@@ -240,6 +240,17 @@ body {
     font-size: 25px;
 }
 
+.entry,
+.logo {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+.sidebar img {
+    filter: brightness(0) invert(1);
+}
+
 .main {
     background-color: var(--main-background);
     display: grid;
