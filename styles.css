@@ -261,8 +261,9 @@ body {
     display: grid;
     padding: 20px;
     grid-template-columns: 1fr 200px;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 30vh);
     gap: 10px;
+    overflow: clip;
 }
 
 .main h1 {
@@ -275,9 +276,11 @@ body {
 
 .project-container {
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
     grid-auto-rows: 150px;
     gap: 40px;
+    overflow: scroll;
 }
 
 .main .card {
