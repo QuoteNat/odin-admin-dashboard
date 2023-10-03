@@ -176,6 +176,10 @@ body {
     padding: 0px 10px;
 }
 
+a {
+    justify-self: end;
+}
+
 .pfp {
     width: 25px;
     height: 25px;
@@ -184,7 +188,7 @@ body {
     border-radius: 100%;
     display: grid;
     align-items: center;
-    justify-content: end;
+    justify-self: end;
 }
 
 .pfp.big {
