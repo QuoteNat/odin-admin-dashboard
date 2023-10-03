@@ -216,6 +216,7 @@ a {
     color: white;
     background-color: var(--dark-background);
     border-radius: 20px;
+    height: 50%;
 }
 
 .header {
