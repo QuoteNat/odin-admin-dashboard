@@ -222,6 +222,7 @@ a {
     background-color: var(--text-background);
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
 }
 
 .sidebar {
@@ -335,4 +336,8 @@ a {
 
 .user p {
     align-self: s;
+}
+
+.main h1 {
+    margin: 5px 0px;
 }
