@@ -294,6 +294,7 @@ a {
     display: grid;
     box-shadow: -5px 0px var(--card-accent);
     border-radius: 3px;
+    padding: 5px;
 }
 
 .card-icons {
@@ -311,6 +312,7 @@ a {
 
 .announcement {
     background-color: var(--text-background);
+    padding: 5px;
 }
 
 .trending-container {
